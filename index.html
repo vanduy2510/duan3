@@ -6,31 +6,26 @@
     <title>Project3</title>
   </head>
   <body>
-    <h1>Table</h1>
-
+    <hr />
+    <h1>Table with colspan and rowspan</h1>
     <table>
-      <thead>
-        <tr>
-          <th>Tên sản phẩm</th>
-          <th>Giá</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td>Áo phông</td>
-          <td>99.000 VND</td>
-        </tr>
-        <tr>
-          <td>Quần jeans</td>
-          <td>200.000VND</td>
-        </tr>
-      </tbody>
-      <tfoot>
-        <tr>
-          <td>Tổng cộng</td>
-          <td>299.000VND</td>
-        </tr>
-      </tfoot>
+      <tr>
+        <th>Tên sản phẩm</th>
+        <th colspan="2">Mô tả</th>
+      </tr>
+      <tr>
+        <td rowspan="2">Áo phông</td>
+        <td>Chất liệu</td>
+        <td>Bạt</td>
+      </tr>
+      <tr>
+        <td>Kích thước</td>
+        <td>Cỡ M L XL</td>
+      </tr>
+      <tr>
+        <td>Quần Jeans</td>
+        <td colspan="2">Cao cấp dễ dàng phối đồ</td>
+      </tr>
     </table>
   </body>
 </html>
